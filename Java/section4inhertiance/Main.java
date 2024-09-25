@@ -5,10 +5,13 @@ import section3refactoring.Textbox;
 public class Main {
 
     public static void main(String[] args) {
+        
+        UIControl[] controls = { new Textbox(), new Checkbox()};
 
-        var box1 = new Textbox();
-        System.out.println(box1.hashCode());
+        for ( var control : controls ) {
+            control.render();
+        }
 
     }
-    
+
 }
