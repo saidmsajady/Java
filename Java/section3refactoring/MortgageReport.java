@@ -1,3 +1,4 @@
+package section3refactoring;
 import java.text.NumberFormat;
 
 public class MortgageReport {

@@ -1,3 +1,5 @@
+package section3refactoring;
+
 import java.util.Scanner;
 
 public class Console {

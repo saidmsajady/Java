@@ -1,3 +1,5 @@
+package section3refactoring;
+
 public class Employee {
 
     private int baseSalary;
@@ -34,10 +36,10 @@ public class Employee {
         this.baseSalary = baseSalary;
     }
 
-    // Getter
-    private int getBaseSalary () {
-        return baseSalary;
-    }
+    // // Getter
+    // private int getBaseSalary () {
+    //     return baseSalary;
+    // }
 
     // Setter
     private void setHourlyRate (int hourlyRate) {
@@ -46,9 +48,9 @@ public class Employee {
         this.hourlyRate = hourlyRate;
     }
 
-    // Getter
-    private int getHourlyRate () {
-        return hourlyRate;
-    }
+    // // Getter
+    // private int getHourlyRate () {
+    //     return hourlyRate;
+    // }
     
 }

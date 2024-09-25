@@ -1,3 +1,5 @@
+package section3refactoring;
+
 public class Browser {
     
     public void navigate (String address) {

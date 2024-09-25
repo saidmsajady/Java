@@ -1,3 +1,4 @@
+package section3refactoring;
 public class MortgageCalculator {
 
     private final static byte MONTHS_IN_YEAR = 12;
