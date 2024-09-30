@@ -2,7 +2,7 @@ package section5interfaces;
 
 public class TaxReport {
 
-    private TaxCalculator calculator;
+    // private TaxCalculator calculator;
 
     // public TaxReport(TaxCalculator calculator) {
     //     this.calculator = calculator;

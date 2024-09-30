@@ -2,9 +2,9 @@ package mytube;
 
 public class VideoProcessor {
 
-    private IVideoEncoder encoder;
-    private IVideoDatabase database;
-    private IEmailService emailService;
+    private final IVideoEncoder encoder;
+    private final IVideoDatabase database;
+    private final IEmailService emailService;
 
     public VideoProcessor(IVideoDatabase database, IEmailService emailService, IVideoEncoder encoder) {
         this.database = database;
