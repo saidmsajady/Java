@@ -1,23 +1,21 @@
 package streams;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.function.Predicate;
-import java.util.stream.Stream;
-
 public class Main {
 
     public static void main(String[] args) {
-        
-        List<Movie> movies = List.of(
-            new Movie ("A", 10),
-            new Movie ("B", 15),
-            new Movie ("C", 20)
-        );
 
-        movies.stream() 
-            .takeWhile(m -> m.getLikes() < 20)
-            .forEach(movie -> System.out.println(movie.getTitle()));
+        StreamsDemo.show();
+        CreamingStreamsDemo.show();
+        
+        // List<Movie> movies = List.of(
+        //     new Movie ("A", 10),
+        //     new Movie ("B", 15),
+        //     new Movie ("C", 20)
+        // );
+
+        // movies.stream() 
+        //     .takeWhile(m -> m.getLikes() < 20)
+        //     .forEach(movie -> System.out.println(movie.getTitle()));
 
         // Predicate<Movie> isPopular = movie -> movie.getLikes() > 10;
 
